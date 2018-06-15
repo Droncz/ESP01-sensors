@@ -4,10 +4,7 @@
 #include "esp_sta.h"
 #include "esp_misc.h"
 
-
-#define SSID "svika"
-#define PASSWORD "Karla Viky 1130"
-
+#include "user_local.h"
 
 void wifi_event_handler_cb(System_Event_t* event);
 bool Wifi_init(void);

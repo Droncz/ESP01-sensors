@@ -1,4 +1,5 @@
 build/
+main/user_local.h
 
 # Prerequisites
 *.d
