@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "env": {
+            "IDF_PATH" : "d:/Pavel/Documents/IoT/TOOLS/ESP_RTOS_SDK", 
+            "BIN_PATH" : "${workspaceRoot}/esp8266_bin",
+            // "PATH" : "${env.PATH};d:/Pavel/Documents/IoT/TOOLS/msys32/mingw32/bin;d:/Pavel/Documents/IoT/TOOLS/msys32/usr/bin;d:/Pavel/Documents/IoT/TOOLS/xtensa-lx106-elf/bin",
+            "PATH" : "${env.PATH};${workspaceRoot}/../TOOLS/msys32/mingw32/bin;${workspaceRoot}/../TOOLS/msys32/usr/bin;${workspaceRoot}/../TOOLS/xtensa-lx106-elf/bin",
+            "PWD" : "."
+        }
+    },
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "args": [ "app"
+            // "args": [
+            //     "-j 8 V=1", //"-j8 V=1 flash log"
+            //     "app"
+            ],
+            "group": "build",
+        }
+    ]
+}

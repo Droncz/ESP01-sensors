@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../TOOLS/ESP_RTOS_SDK"
+		}
+	],
+	"settings": {
+	}
+}

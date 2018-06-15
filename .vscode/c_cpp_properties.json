@@ -1,0 +1,57 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/newlib/newlib/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/esp8266/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/ssl/mbetls/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/spiffs/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/spi_flash/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/tcpip_adapter/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/nvs_flash/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/nvs_flash/test_nvs_host",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/freertos/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/freertos/include/freertos/private",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/freertos/port/esp8266/include/freertos",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/freertos/port/esp8266/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/lwip/lwip/src/include",
+                    "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/lwip/port/esp8266/include",
+                    "${workspaceFolder}/../TOOLS/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include",
+                    "${workspaceFolder}/../TOOLS/xtensa-lx106-elf/xtensa-lx106-elf/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/newlib/newlib/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/esp8266/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/ssl/mbetls/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/spiffs/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/spi_flash/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/tcpip_adapter/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/nvs_flash/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/nvs_flash/test_nvs_host",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/freertos/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/freertos/include/freertos/private",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/freertos/port/esp8266/include/freertos",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/freertos/port/esp8266/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/lwip/lwip/src/include",
+                "${workspaceFolder}/../TOOLS/ESP_RTOS_SDK/components/lwip/port/esp8266/include",
+                "${workspaceFolder}/../TOOLS/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include",
+                "${workspaceFolder}/../TOOLS/xtensa-lx106-elf/xtensa-lx106-elf/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}

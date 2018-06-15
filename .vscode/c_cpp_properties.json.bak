@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/esp8266/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/newlib/newlib/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/ssl/mbetls/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/spiffs/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/spi_flash/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/tcpip_adapter/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/nvs_flash/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/nvs_flash/test_nvs_host",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/freertos/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/freertos/include/freertos/private",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/freertos/port/esp8266/include/freertos",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/freertos/port/esp8266/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/lwip/lwip/src/include",
+                    "${env:HOMEPATH}/Documents/IoT/ESP_RTOS_SDK/components/lwip/port/esp8266/include",
+                    "${env:HOMEPATH}/Documents/IoT/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include",
+                    "${env:HOMEPATH}/Documents/IoT/xtensa-lx106-elf/xtensa-lx106-elf/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
